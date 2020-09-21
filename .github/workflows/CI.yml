@@ -33,7 +33,7 @@ jobs:
       - name: Prepare blockchain nodes and certificates
         run: |
           mkdir -p fisco && cd fisco
-          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0/build_chain.sh && chmod u+x build_chain.sh
+          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0-hotfix-1/build_chain.sh && chmod u+x build_chain.sh
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
@@ -79,7 +79,7 @@ jobs:
       - name: Prepare blockchain nodes and certificates
         run: |
           mkdir -p fisco && cd fisco
-          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0/build_chain.sh && chmod u+x build_chain.sh
+          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0-hotfix-1/build_chain.sh && chmod u+x build_chain.sh
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
@@ -143,7 +143,7 @@ jobs:
       - name: Prepare blockchain nodes and certificates
         run: |
           mkdir -p fisco && cd fisco
-          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0/build_chain.sh && chmod u+x build_chain.sh
+          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0-hotfix-1/build_chain.sh && chmod u+x build_chain.sh
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
@@ -206,7 +206,7 @@ jobs:
       - name: Prepare blockchain nodes and certificates
         run: |
           mkdir -p fisco && cd fisco
-          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0/build_chain.sh && chmod u+x build_chain.sh
+          curl -LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.3.0-hotfix-1/build_chain.sh && chmod u+x build_chain.sh
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
