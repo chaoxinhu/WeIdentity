@@ -40,6 +40,7 @@ jobs:
           curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
+          cd ../..
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
           cd ..
@@ -91,6 +92,7 @@ jobs:
           curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
+          cd ../..
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
           cd ..
@@ -160,6 +162,7 @@ jobs:
           curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
+          cd ../..
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
           cd ..
@@ -228,6 +231,7 @@ jobs:
           curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
+          cd ../..
           bash nodes/127.0.0.1/start_all.sh
           ps -ef | grep -v grep | grep fisco
           cd ..
