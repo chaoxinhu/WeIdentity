@@ -37,7 +37,7 @@ jobs:
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           cd nodes/127.0.0.1
           rm -rf fisco-bcos
-          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
+          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
           cd ../..
@@ -89,7 +89,7 @@ jobs:
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           cd nodes/127.0.0.1
           rm -rf fisco-bcos
-          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
+          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
           cd ../..
@@ -159,7 +159,7 @@ jobs:
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           cd nodes/127.0.0.1
           rm -rf fisco-bcos
-          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
+          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
           cd ../..
@@ -228,7 +228,7 @@ jobs:
           bash build_chain.sh -l "127.0.0.1:2" -p 30300,20200,8545
           cd nodes/127.0.0.1
           rm -rf fisco-bcos
-          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos-getBlockReceipts.tar.gz
+          curl -LO https://osp-1257653870.cos.ap-guangzhou.myqcloud.com/WeIdentity/fisco-bcos.tar.gz
           tar -zxvf fisco-bcos-getBlockReceipts.tar.gz
           chmod u+x fisco-bcos
           cd ../..
